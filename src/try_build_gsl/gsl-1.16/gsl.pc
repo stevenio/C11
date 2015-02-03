@@ -1,0 +1,11 @@
+prefix=/Users/stevenw/Install/gsl
+exec_prefix=/Users/stevenw/Install/gsl
+libdir=/Users/stevenw/Install/gsl/lib
+includedir=/Users/stevenw/Install/gsl/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 1.16
+Libs: -L/Users/stevenw/Install/gsl/lib -lgsl ${GSL_CBLAS_LIB}  -lm 
+Cflags: -I/Users/stevenw/Install/gsl/include
