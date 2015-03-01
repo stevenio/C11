@@ -1,6 +1,6 @@
 P=stddev_bugged
 TARGETS=
-CFLAGS= -g -Wall -O3 -std=c11
+CFLAGS= -g -Wall -O3 -std=c99
 LDFLAGS= 
 
 $P: $(TARGETS)
